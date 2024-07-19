@@ -11,7 +11,7 @@
 
     impacket-mssqlclient florence.ramirez:'He*****'@ghost.htb -windows-auth
 
-ux******和He******都可以
+uxxxxxxxxx和Hexxxxxxx都可以
 
     enum_links
 
